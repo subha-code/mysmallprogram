@@ -2,6 +2,25 @@
 #include<string.h>
 #include<conio.h>
 
+void newcastomer(){
+	printf("----------------------------------------------------------------------------------");
+                                                        printf("\nEnter your valid id number: ");
+							scanf("%d",&id);
+							printf("\nEnter your valid id number: ");
+							scanf("%d",&id);
+							
+							printf("\nacetylin cylinders");
+							printf("\nyour choice acetylin cylinders\n");
+							printf("Your id %d\n",id);
+							printf("your name: ");
+							puts(name);
+							 printf("Date :%s\n", __DATE__ );
+                                                        printf("Time :%s\n", __TIME__ );
+							printf("\nyour order is sucessful \n your gas delivary within 24 days\n");
+							printf("----------------------------------------------------------------------------------");
+}
+	
+
 void data(){
 		int press;
 
@@ -56,7 +75,7 @@ void data(){
 							printf("----------------------------------------------------------------------------------");
 							break;
                                         case 3:
-							printf("----------------------------------------------------------------------------------");
+							/*printf("----------------------------------------------------------------------------------");
                                                         printf("\nEnter your valid id number: ");
 							scanf("%d",&id);
 							printf("\nEnter your valid id number: ");
@@ -70,7 +89,8 @@ void data(){
 							 printf("Date :%s\n", __DATE__ );
                                                         printf("Time :%s\n", __TIME__ );
 							printf("\nyour order is sucessful \n your gas delivary within 24 days\n");
-							printf("----------------------------------------------------------------------------------");
+							printf("----------------------------------------------------------------------------------");*/
+					                newcastomer();
 							break;
 					case 4:
 							printf("YOU ARE A NEW CUSTOMER\n PLEASE OPEN A BOOK WITH VALID DOCUMENT");
